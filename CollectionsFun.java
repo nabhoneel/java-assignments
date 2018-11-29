@@ -80,11 +80,11 @@ class StudentColletionTest {
 	public static void main(String args[]) {
 		ArrayList<Student> st = new ArrayList<Student>();
 		st.add(new Student(1, "Hari", "BTech", "CS", 3));
-		st.add(new Student(1, "Soumik", "MSc", "CS", 2));
-		st.add(new Student(1, "Rishov", "MSc", "CS", 3));
-		st.add(new Student(1, "Sukant", "BTech", "ECE", 2));
-		st.add(new Student(1, "Debo", "MSc", "CS", 2));
-		st.add(new Student(1, "Ayan", "BTech", "CS", 3));
+		st.add(new Student(2, "Soumik", "MSc", "CS", 2));
+		st.add(new Student(3, "Rishov", "MSc", "CS", 3));
+		st.add(new Student(4, "Sukant", "BTech", "ECE", 2));
+		st.add(new Student(5, "Debo", "MSc", "CS", 2));
+		st.add(new Student(7, "Ayan", "BTech", "CS", 3));
 
 		for(
 			Iterator<Student> i = st.iterator(); 
