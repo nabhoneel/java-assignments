@@ -101,7 +101,7 @@ class StudentBTech extends Student {
 		);
 
 		this.marks = marks;
-		this.credits = {3, 3, 4, 4, 4};
+		this.credits = new int[]{3, 3, 4, 4, 4};
 		failStatus = false;
 	}
 
